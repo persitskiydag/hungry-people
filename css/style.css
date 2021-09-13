@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+head{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: banny;
+    src: url("../fonts/Banny-Round.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    background: url(../img/header-bg.jpg) no-repeat center / cover;
+    height: 800px;
+}
+.link {
+    color: #ffffff;
+}
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav{
+    width: 530px;
+    display: flex;
+    justify-content:space-around;
+}
+.header__img{
+    margin-top: 25px;
+}
+.header__nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 35px;
+    margin-top: -20px;
+}
+.header__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.header__text__left {
+    writing-mode: vertical-rl;
+    padding-left: 81px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.hero__block {
+    max-width: 849px;
+    width: 100%;
+    margin: auto;
+}
+.hero__text {
+    letter-spacing: 0.5em;
+    font-size: 12px;
+    line-height: 14px;
+}
+.header__text__title {
+    padding-top: 70px;
+    font-size: 80px;
+    line-height: 0px;
+}
+.header__line {
+    margin-top: 50px;
+    width: 60px;
+    height: 5.11px;
+    background: #E8C300;
+    border-radius: 50px;
+}
+.buttons {
+    padding-top: 30px;
+}
+.container__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.button__primary {
+    width: 200px;
+    height: 60px;
+    background: #E8C300;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.button__secondary {
+    width: 200px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.button__down {
+    margin-top: 54px;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.text__block {
+    text-align: center;
+}
+.text__title {
+    font-size: 36px;
+}
+.text__subtitle {
+    font-size: 14px;
+    height: 24px;
+}
+.text__desc {
+    font-size: 14px;
+    height: 24px;
+}
+.section__master { 
+
+}
