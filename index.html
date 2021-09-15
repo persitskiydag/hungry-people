@@ -4,65 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Hungry people</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Hungry people</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header__block">
-                <div class="header__nav">
-                    <a href="#" class="header__text">HOME</a>
-                    <a href="#" class="header__text">ABOUT</a>
-                    <a href="#" class="header__text">TEAM</a>
-                    <a href="#" class="header__text">BOOKING</a>
-                </div>
-                <img src="img/Vector(4).png" alt="" class="header__img">
-                <div class="header__nav">
-                    <a href="#" class="header__text">MENU</a>
-                    <a href="#" class="header__text">GALERIE</a>
-                    <a href="#" class="header__text">EVENTS</a>
-                    <a href="#" class="header__text">CONTACT</a>
-                </div>
-                <!-- /.header__nav -->
-            </div>
+        <div class="container block">
+            <nav class="navigation">
+                <a href="#" class="nav__item">Home</a>
+                <a href="#" class="nav__item">about</a>
+                <a href="#" class="nav__item">team</a>
+                <a href="#" class="nav__item">booking</a>
+            </nav>
+            <!-- /.navigation -->
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="логотип" class="logo__img">
+            </a>
+            <nav class="navigation">
+                <a href="#" class="nav__item">menu</a>
+                <a href="#" class="nav__item">galerie</a>
+                <a href="#" class="nav__item">events</a>
+                <a href="#" class="nav__item">contact</a>
+            </nav>
+            <!-- /.navigation -->
         </div>
         <!-- /.container -->
-        <div class="link header__text__left">
-            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
-        </div>
-        <div class="hero__block">
-            <div class="container__block">
-                <p class="link hero__text">restaurant</p>
-                <h1 class="link header__text__title">HUNGRY PEOPLE</h1>
-                <div class="header__line"></div>
-                <div class="buttons">
-                    <button class="link button__primary">BOOK TABLE</button>
-                    <button class="link button__secondary">EXPLORE</button>
-                </div>
-                <button class="button__down"><img src="img/.svg" alt="стрелочка"></button>
-            </div>
-        </div>
-        </header>
+    </header>
     <!-- /.header -->
-    <section class="section__about">
-        <div class="container header__block">
-            <div class="text__block">
-                <h1 class="text__title">ABOUT US</h1>
-                <p class="text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
-                <p class="text__desc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin</p>
+    <section class="section section__hero">
+        <div class="container block">
+            <p class="hero__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            <!-- /.hero__text -->
+            <div class="hero__info">
+                <strong class="hero__subtitle">restaurant</strong>
+                <h1 class="hero__title">HUNGRY PEOPLE</h1>
+                <div class="buttons">
+                    <button class="button button--primary">book table</button>
+                    <button class="button button--secondary">explore</button>
+                </div>
+                <!-- /.buttons -->
+                <a href="#" class="link-down"></a>
             </div>
-            <div class="img__block">
-                <img src="img/about-img.png" alt="" class="section__img">
+            <!-- /.hero__info -->
+            <div class="hero__social">
+                <a href="#" class="social__link"><img src="img/facebook.svg" alt="facebook" class="social__img"></a>
+                <a href="#" class="social__link"><img src="img/twitter.svg" alt="twitter" class="social__img"></a>
+                <a href="#" class="social__link"><img src="img/insta.svg" alt="insta" class="social__img"></a>
             </div>
+            <!-- /.hero__social -->
         </div>
-        
+        <!-- /.container -->
     </section>
-    <section class="section__master">
-        <p class="section__title">OUR TEAM</p>
+    <!-- /.section section__hero -->
+    <section class="section section__about">
+        <div class="container block">
+            <strong class="hero__uptitle">about us</strong>
+            p.
+        </div>
+        <!-- /.container block -->
     </section>
+    <!-- /.section section__about -->
 </body>
 </html>
